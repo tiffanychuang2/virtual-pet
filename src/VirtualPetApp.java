@@ -6,7 +6,7 @@ public class VirtualPetApp {
 		
 		Scanner input = new Scanner (System.in);
 		
-		
+		VirtualPet dog = new VirtualPet("Sustenance", "Boredom", "Waste", "Rest");
 		
 		
 		
