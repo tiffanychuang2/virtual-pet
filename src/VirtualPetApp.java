@@ -64,7 +64,9 @@ public class VirtualPetApp {
 		while (!choice.equals("exit"));
 
 		System.out.println("Thanks for playing!");
-		System.exit(0);
+		// System.exit(0);
+
+		input.close();
 
 	}
 

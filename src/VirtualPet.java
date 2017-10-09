@@ -2,7 +2,7 @@
 public class VirtualPet {
 
 	// points
-	private int hunger;
+	private int hunger; // can this be public?
 	private int weight;
 	private int energy;
 	private int accident;
@@ -18,9 +18,9 @@ public class VirtualPet {
 	}
 
 	// getters
-	public int getHunger() {
-		return hunger;
-	}
+	// public int getHunger() {
+	// return hunger;
+	// }
 
 	public int getWeight() {
 		return weight;
@@ -67,6 +67,11 @@ public class VirtualPet {
 		energy -= 1; // loses energy every loop
 		accident += 1; // likelihood of accident increases each loop
 		sleep += 1; // more tired each loop
+
+		if (accident >= 10) {
+			accident *= 0;
+			System.out.println("Pup had an accident :(  couldn't hold it any longer!");
+		}
 	}
 
 	public void feed() {
@@ -88,6 +93,11 @@ public class VirtualPet {
 		hunger += 1;
 		weight -= 1;
 		accident = 0;
+
+		// if (accident >=10) {
+		// accident *= 0;
+		// System.out.println("Pup had an accident :( couldn't hold it any longer!");
+		// }
 	}
 
 	public void sleep() {
