@@ -2,6 +2,12 @@ created instance variables
 
 created methods to print options and currentHealth
 
+tick method
+
+method to print options
+
+method to print current stats
+
 
 Features
 Feed: hunger/weight
@@ -10,9 +16,12 @@ TakeOut: accidents/energy
 Sleep: 
 Nothing:
 
-things to do:
+extra things to do:
 	- limit to positive numbers
 	- cause/effect
+	- stretch tasks
+	- conditions
+	
 	
 	
 	
